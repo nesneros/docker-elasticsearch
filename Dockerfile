@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:5.3.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:5.3.2
 
 COPY elasticsearch.yml /usr/share/elasticsearch/config/
 USER root

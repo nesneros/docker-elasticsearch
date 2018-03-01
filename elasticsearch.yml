@@ -10,6 +10,8 @@ node.master: ${MASTER_NODE}
 node.data: ${DATA_NODE}
 node.ingest: ${INGEST_NODE}
 
+path.data: ${PATH_DATA}
+
 xpack.watcher.index.rest.direct_access: ${DIRECT_ACCESS_WATCHER} 
 xpack.security.enabled: ${XPACK_SECURITY_ENABLED}
 xpack.ml.enabled: ${XPACK_ML_ENABLED} 

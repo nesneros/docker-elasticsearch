@@ -16,4 +16,6 @@ xpack.watcher.index.rest.direct_access: ${DIRECT_ACCESS_WATCHER}
 xpack.security.enabled: ${XPACK_SECURITY_ENABLED}
 xpack.ml.enabled: ${XPACK_ML_ENABLED} 
  
-xpack.security.transport.ssl.enabled: false 
+xpack.security.transport.ssl.enabled: false
+
+action.auto_create_index: ${AUTO_CREATE_INDEX}
